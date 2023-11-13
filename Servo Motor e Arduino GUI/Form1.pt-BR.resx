@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="textBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="textBox5.Text" xml:space="preserve">
+    <value>Posição atual:</value>
+  </data>
+  <data name="textBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="PosAtualizada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PosAtualizada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 19</value>
+  </data>
+  <data name="PosAtualizada.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="PosAtualizada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 42</value>
+  </data>
+  <data name="PosAtualizada.Text" xml:space="preserve">
+    <value>Atualizar posição:</value>
+  </data>
+  <data name="textoPosicao.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="textoPosicao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="Enviar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Enviar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Enviar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 46</value>
+  </data>
+  <data name="Enviar.Text" xml:space="preserve">
+    <value>Enviar informações</value>
+  </data>
+  <data name="Velocity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Velocity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Velocity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 42</value>
+  </data>
+  <data name="Velocity.Text" xml:space="preserve">
+    <value>Velocidade </value>
+  </data>
+  <data name="Direction2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Direction2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Direction2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 42</value>
+  </data>
+  <data name="Direction2.Text" xml:space="preserve">
+    <value>Para Baixo</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 76</value>
+  </data>
+  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="PulseQntd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PulseQntd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 29</value>
+  </data>
+  <data name="PulseQntd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="PulseQntd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 42</value>
+  </data>
+  <data name="PulseQntd.Text" xml:space="preserve">
+    <value>Quantidade de Pulsos</value>
+  </data>
+  <data name="Direction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Direction.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Direction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 42</value>
+  </data>
+  <data name="Direction.Text" xml:space="preserve">
+    <value>Para Cima</value>
+  </data>
+  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="textBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="Parâmetros_Motor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 20</value>
+  </data>
+  <data name="Parâmetros_Motor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Parâmetros_Motor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Parâmetros_Motor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>677, 123</value>
+  </data>
+  <data name="Parâmetros_Motor.Text" xml:space="preserve">
+    <value>Parâmetros do Motor</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 147</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>677, 140</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Acionamento do Motor</value>
+  </data>
+  <data name="SemAcelerar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SemAcelerar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 75</value>
+  </data>
+  <data name="SemAcelerar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SemAcelerar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 61</value>
+  </data>
+  <data name="SemAcelerar.Text" xml:space="preserve">
+    <value>Girar motor sem aceleração</value>
+  </data>
+  <data name="En_Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="En_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 27</value>
+  </data>
+  <data name="En_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="En_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 38</value>
+  </data>
+  <data name="En_Button.Text" xml:space="preserve">
+    <value>Energizar motor</value>
+  </data>
+  <data name="onButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="onButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 9</value>
+  </data>
+  <data name="onButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="onButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 56</value>
+  </data>
+  <data name="onButton.Text" xml:space="preserve">
+    <value>Girar motor com aceleração</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 19</value>
+  </data>
+  <data name="textBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox4.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox4.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 94</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 78</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 43</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Desenergizar motor</value>
+  </data>
+  <data name="StopButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StopButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="StopButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="StopButton.Text" xml:space="preserve">
+    <value>Parar motor</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>549, 183</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 228</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>690, 292</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Movimentação</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 30</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 183</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Modos de operação</value>
+  </data>
+  <data name="ModoCalibracao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 109</value>
+  </data>
+  <data name="ModoCalibracao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 41</value>
+  </data>
+  <data name="ModoCalibracao.Text" xml:space="preserve">
+    <value>Calibração</value>
+  </data>
+  <data name="ModoMovimentacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 46</value>
+  </data>
+  <data name="ModoMovimentacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 41</value>
+  </data>
+  <data name="ModoMovimentacao.Text" xml:space="preserve">
+    <value>Movimentação</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 228</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>690, 287</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Calibração</value>
+  </data>
+  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 100</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 58</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 58</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>943, 542</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAEUAAABoAAAAeAAAAHgAAABoAAAAQwAAABgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAEAAAAPQAAAHQAAACIAAAAjgAAAI4AAACOAAAAjgAAAIgAAABzAAAAOwAA
+        AAAAAAAAAAAAAAAAAAAAAAAEAAAAUQAAAIgAAACOAAAAjgAAAI4AAACOAAAAiAAAAI4AAACOAAAAjgAA
+        AIcAAABLAAAAAAAAAAAAAAAAAAAAPQAAAIcAAACOAAAAjgAAAIgAAACHAAAAggAAAIIAAACHAAAAiAAA
+        AI4AAACOAAAAhwAAADsAAAAAAAAAGAAAAHQAAACOAAAAjgAAAIcAAAB0AAAATQAAAC8AAAAvAAAATQAA
+        AHQAAACHAAAAjgAAAI4AAABzAAAAFgAAAEUAAACIAAAAjgAAAIgAAAB0AAAALwAAAAAAAAAAAAAAAAAA
+        AAAAAAAzAAAAeAAAAIgAAACOAAAAiAAAAD0AAABoAAAAjgAAAI4AAACHAAAASwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAABAAAAFEAAACHAAAAjgAAAI4AAABhAAAAeAAAAI4AAACOAAAAfwAAAC8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAA0AAAAggAAAI4AAACOAAAAcwAAAHgAAACOAAAAjgAAAIIAAAAzAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAIIAAACOAAAAjgAAAHMAAABmAAAAjgAAAI4AAACHAAAATQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAFEAAACHAAAAjgAAAI4AAABhAAAAQwAAAIgAAACOAAAAiAAA
+        AHgAAAAzAAAABAAAAAAAAAAAAAAABAAAADsAAAB4AAAAiAAAAI4AAACIAAAAOwAAABgAAAB0AAAAjgAA
+        AI4AAACHAAAAeAAAAFEAAAA0AAAANAAAAFgAAAB/AAAAhwAAAI4AAACOAAAAbwAAABYAAAAAAAAAOwAA
+        AIcAAACOAAAAjgAAAIgAAACHAAAAggAAAIcAAACIAAAAiAAAAI4AAACOAAAAhwAAADQAAAAAAAAAAAAA
+        AAAAAABNAAAAiAAAAJAAAACQAAAAkAAAAJAAAACOAAAAjgAAAI4AAACOAAAAhwAAAEUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAADsAAAB0AAAAjgAAAI4AAACOAAAAjgAAAI4AAACIAAAAcwAAADQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAFgAAAD0AAABhAAAAcwAAAHMAAABfAAAAPQAAABYAAAAAAAAAAAAA
+        AAAAAAAA8A8AAMAHAACAAwAAgAEAAAAAAAADwAAAB8AAAAfgAAAH4AAAB8AAAAGAAAAAAAAAgAEAAMAD
+        AADgBwAA8A8AAA==
+</value>
+  </data>
+</root>
