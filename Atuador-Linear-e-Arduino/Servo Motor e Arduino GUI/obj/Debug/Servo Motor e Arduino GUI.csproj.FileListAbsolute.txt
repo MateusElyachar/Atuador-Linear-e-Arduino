@@ -1,0 +1,17 @@
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.csproj.AssemblyReference.cache
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo_Motor_e_Arduino_GUI.Form1.resources
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo_Motor_e_Arduino_GUI.Properties.Resources.resources
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo_Motor_e_Arduino_GUI.Form1.pt-BR.resources
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.csproj.GenerateResource.cache
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\bin\Debug\Servo Motor e Arduino GUI.exe.config
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\bin\Debug\Servo Motor e Arduino GUI.exe.manifest
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\bin\Debug\Servo Motor e Arduino GUI.application
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\bin\Debug\Servo Motor e Arduino GUI.exe
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\bin\Debug\Servo Motor e Arduino GUI.pdb
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\bin\Debug\pt-BR\Servo Motor e Arduino GUI.resources.dll
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.csproj.CoreCompileInputs.cache
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\pt-BR\Servo Motor e Arduino GUI.resources.dll
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.exe.manifest
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.application
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.exe
+C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.pdb
