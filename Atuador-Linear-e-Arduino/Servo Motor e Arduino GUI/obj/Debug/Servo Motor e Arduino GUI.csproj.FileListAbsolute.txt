@@ -15,3 +15,4 @@ C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\o
 C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.application
 C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.exe
 C:\Users\lm2cc\Source\Repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.pdb
+C:\Users\lm2cc\source\repos\Atuador-Linear-e-Arduino\Servo Motor e Arduino GUI\obj\Debug\Servo Motor e Arduino GUI.csproj.SuggestedBindingRedirects.cache

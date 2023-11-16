@@ -123,13 +123,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="textBox10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 20</value>
+    <value>129, 22</value>
   </data>
   <data name="textBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 20</value>
+    <value>119, 22</value>
   </data>
   <data name="textBox9.Text" xml:space="preserve">
     <value>Posição laser:</value>
@@ -144,7 +144,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 20</value>
+    <value>129, 22</value>
   </data>
   <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>416, 71</value>
@@ -153,7 +153,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 20</value>
+    <value>119, 22</value>
   </data>
   <data name="textBox5.Text" xml:space="preserve">
     <value>Posição calculada:</value>
@@ -180,7 +180,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="textoPosicao.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 20</value>
+    <value>129, 22</value>
   </data>
   <data name="Enviar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -234,7 +234,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 20</value>
+    <value>122, 22</value>
   </data>
   <data name="PulseQntd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -276,7 +276,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 20</value>
+    <value>97, 23</value>
   </data>
   <data name="Parâmetros_Motor.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 20</value>
@@ -453,11 +453,47 @@
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Calibração</value>
   </data>
+  <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 227</value>
+  </data>
+  <data name="textBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 171</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 50</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>Inserir constante atual:</value>
+  </data>
+  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 170</value>
+  </data>
+  <data name="textBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="textBox11.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox11.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 77</value>
+  </data>
   <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
     <value>532, 74</value>
   </data>
   <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 20</value>
+    <value>141, 22</value>
   </data>
   <data name="Aceleracao_calibracao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -499,13 +535,10 @@
     <value>130, 68</value>
   </data>
   <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 20</value>
+    <value>181, 22</value>
   </data>
   <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 63</value>
-  </data>
-  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
   </data>
   <data name="A_laser.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 34</value>
@@ -527,42 +560,6 @@
   </data>
   <data name="button4.Text" xml:space="preserve">
     <value>Velocidade de calibração:</value>
-  </data>
-  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>334, 170</value>
-  </data>
-  <data name="textBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="textBox11.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="textBox11.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 77</value>
-  </data>
-  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 171</value>
-  </data>
-  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 50</value>
-  </data>
-  <data name="button5.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>Inserir constante atual:</value>
-  </data>
-  <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 227</value>
-  </data>
-  <data name="textBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>943, 542</value>

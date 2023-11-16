@@ -58,6 +58,9 @@
             this.ModoCalibracao = new System.Windows.Forms.Button();
             this.ModoMovimentacao = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.Aceleracao_calibracao = new System.Windows.Forms.Button();
             this.Sem_Aceleracao_calibracao = new System.Windows.Forms.Button();
@@ -66,9 +69,6 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.A_laser = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox12 = new System.Windows.Forms.TextBox();
             this.Parâmetros_Motor.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -250,7 +250,7 @@
             // 
             // serialPort2
             // 
-            this.serialPort2.PortName = "COM3";
+            this.serialPort2.PortName = "COM10";
             this.serialPort2.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort2_DataReceived);
             // 
             // pictureBox2
@@ -308,6 +308,26 @@
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
             // 
+            // textBox12
+            // 
+            resources.ApplyResources(this.textBox12, "textBox12");
+            this.textBox12.Name = "textBox12";
+            // 
+            // button5
+            // 
+            resources.ApplyResources(this.button5, "button5");
+            this.button5.Name = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // textBox11
+            // 
+            this.textBox11.AcceptsReturn = true;
+            resources.ApplyResources(this.textBox11, "textBox11");
+            this.textBox11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
+            this.textBox11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.ReadOnly = true;
+            // 
             // textBox8
             // 
             resources.ApplyResources(this.textBox8, "textBox8");
@@ -357,34 +377,14 @@
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // textBox11
-            // 
-            this.textBox11.AcceptsReturn = true;
-            resources.ApplyResources(this.textBox11, "textBox11");
-            this.textBox11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
-            this.textBox11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ReadOnly = true;
-            // 
-            // button5
-            // 
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.Name = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // textBox12
-            // 
-            resources.ApplyResources(this.textBox12, "textBox12");
-            this.textBox12.Name = "textBox12";
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
             this.Parâmetros_Motor.ResumeLayout(false);
             this.Parâmetros_Motor.PerformLayout();

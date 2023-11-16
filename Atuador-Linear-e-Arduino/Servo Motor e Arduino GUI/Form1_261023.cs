@@ -28,7 +28,7 @@ namespace Servo_Motor_e_Arduino_GUI
         float posFinal; //posicão final 
         float posVar = 0; //Variação da posição
         float deslocamento_por_pulso; //variação de posição total / numero de pulsos enviados
-        
+
 
 
         public Form1()
@@ -120,6 +120,24 @@ namespace Servo_Motor_e_Arduino_GUI
                     textBox10.AppendText(Convert.ToString(indata).Substring(1) + "mm");
                     break;
 
+                case 'd':
+                    textBox8.Text = "";
+                    textBox8.AppendText(Convert.ToString(indata).Substring(1) + "mm");
+                    break;
+
+                //Algumas mensagens com caracteres especiais                    
+                case 'c':
+                    textBox4.AppendText("Direcão: Para cima" + "\r\n");
+                    break;
+
+                case 'b':
+                    textBox4.AppendText("Direcão: Para baixo" + "\r\n");
+                    break;
+
+                case 'a':
+                    textBox4.AppendText("O motor está se movendo com aceleração!" + "\r\n");
+                    break;
+
                 default:
                     textBox4.AppendText(Convert.ToString(indata) + "\r\n");
                     break;
@@ -161,7 +179,7 @@ namespace Servo_Motor_e_Arduino_GUI
             else
             {
                 textBox4.AppendText("Algum valor está faltando. Tente novamente! " + "\r\n");
-                
+
             }
 
 
@@ -182,7 +200,7 @@ namespace Servo_Motor_e_Arduino_GUI
             textoPosicao.Text = "";
         }
 
-       
+
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
